@@ -9,7 +9,7 @@ const App: React.FC = () => {
     <ConfigProvider componentSize={xxl ? 'middle' : 'small'}>
       <Flex vertical gap="middle">
         <Flex gap="middle" wrap>
-          <Button color="default" variant="solid">
+          <Button color="yellow" variant="solid">
             Solid
           </Button>
           <Button color="default" variant="outlined">
